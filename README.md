@@ -8,30 +8,30 @@ This script syncs a [Schulserver24](http://schulserver24.de) timetable with your
 
 ## Config
 ### schulserver24/config.json
-```json
+```javascript
 {  
   "schulserver24": {  
     "url": "http://{{school}}.schulserver24.de/stundenGrid.php",  
-    "school": "rvwbk",  // => your school
-    "teacher": "klasse_EIT22"  => school class or teacher
+    "school": "rvwbk",  /* => your school */  
+    "teacher": "klasse_EIT22" /* => school class or teacher */  
   }  
 }
 ```  
 
 ### googleSync/config.json
 
-```json
+```javascript
 {
-  "consumer_key": "YOUR_CLIENT_ID", // => Google API CLient ID  
-  "consumer_secret": "YOUR_CLIENT_SECRET", // => Google API CLient Secret  
+  "consumer_key": "YOUR_CLIENT_ID", /* => Google API CLient ID*/  
+  "consumer_secret": "YOUR_CLIENT_SECRET", /* => Google API CLient Secret*/  
   "calendars": {  
     "all": {  
-      "name": "CALENDAR_NAME_FOR_ALL" // => Calendar Name for all teaching hours  
+      "name": "CALENDAR_NAME_FOR_ALL" /* => Calendar Name for all teaching hours*/  
     },  
     "representation": {  
-      "name": "CALENDAR_NAME_FOR_REPRESENTATION" // => Calendar Name for representation teaching hours  
+      "name": "CALENDAR_NAME_FOR_REPRESENTATION" /* => Calendar Name for representation teaching hours*/  
     }  
   },  
-  "prowl_key": "PROWL_API_KEY" // => API_KEY for Prowl Push notifcations, or leave empty ("")  
+  "prowl_key": "PROWL_API_KEY" /* => API_KEY for Prowl Push notifcations, or leave empty ("")*/  
 }
 ```
