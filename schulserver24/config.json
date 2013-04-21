@@ -1,0 +1,7 @@
+{
+  "schulserver24": {
+    "url": "http://{{school}}.schulserver24.de/stundenGrid.php",
+    "school": "rvwbk",
+    "teacher": "klasse_EIT22"
+  }
+}

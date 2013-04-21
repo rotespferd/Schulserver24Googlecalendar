@@ -1,0 +1,13 @@
+{
+	"name": "schulserver24",
+	"version": "0.1.0",
+	"main": "schulserver.js",
+	"dependencies": {
+		"xmlhttprequest": "*",
+		"moment": "*",
+		"google-calendar": "*",
+		"express": "*",
+		"jsdom"	: "0.6.0",
+		"jQuery": "*"
+	}	
+}

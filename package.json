@@ -1,0 +1,8 @@
+{
+	"name": "schulserver24GoogleCal",
+	"version": "1.0.0",
+	"main": "app.js",
+	"dependencies": {
+		"moment": "*"
+	}	
+}

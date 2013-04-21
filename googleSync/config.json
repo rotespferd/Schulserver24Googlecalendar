@@ -1,0 +1,13 @@
+{
+  "consumer_key": "YOUR_CLIENT_ID",
+  "consumer_secret": "YOUR_CLIENT_SECRET",
+  "calendars": {
+    "all": {
+      "name": "CALENDAR_NAME_FOR_ALL"
+    },
+    "representation": {
+      "name": "CALENDAR_NAME_FOR_REPRESENTATION"
+    }
+  },
+  "prowl_key": "PROWL_API_KEY"
+}
