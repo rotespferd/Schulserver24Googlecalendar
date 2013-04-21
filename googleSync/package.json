@@ -1,7 +1,7 @@
 {
   "name": "googleSync",
   "version": "0.1.0",
-  "main": "googleCAL.js",
+  "main": "googleCal.js",
   "dependencies": {
     "googleapis": "*",
     "express": "*",
